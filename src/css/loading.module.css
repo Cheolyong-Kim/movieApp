@@ -1,0 +1,26 @@
+.loading_wrap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+
+.loading_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+}
+
+.loading_message {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin: -16px 0 0 -50px;
+    padding: 0;
+    font-size: 25px;
+    color: white;
+}

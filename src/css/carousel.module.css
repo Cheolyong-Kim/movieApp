@@ -1,0 +1,51 @@
+article {
+    background-color: black;
+    height: 100vh;
+}
+
+.content_wrap {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.up_button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 2%;
+    right: 50%;
+    padding: 0;
+    border: none;
+    margin: 0 0 -35px -35px;
+    background: url(../img/button_img_blur.png) no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.up_button:hover {
+    background: url(../img/button_img.png) no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.down_button {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 6%;
+    right: 50%;
+    padding: 0;
+    border: none;
+    margin: 0 0 -35px -35px;
+    background: url(../img/button_img_blur.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.down_button:hover {
+    background: url(../img/button_img.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
